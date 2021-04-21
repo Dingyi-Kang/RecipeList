@@ -9,6 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
+    init() {
+        UITabBar.appearance().barTintColor = UIColor.white
+    }
+    
     @ObservedObject var model = viewModel()
     var body: some View {
         
@@ -16,7 +20,7 @@ struct ContentView: View {
             featureView()
                 .tabItem{
                     HStack{
-                    Image(systemName:"star.fill")
+                    Image(systemName:"heart")
                     Text("Feature")
                     }
                     }
@@ -31,11 +35,15 @@ struct ContentView: View {
                 }
             
         }.environmentObject(viewModel())
+        
 
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
+    init() {
+        UITabBar.appearance().barTintColor = UIColor.gray
+    }
     static var previews: some View {
         
         ContentView()

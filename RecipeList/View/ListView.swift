@@ -10,6 +10,7 @@ import SwiftUI
 struct ListView: View {
     @EnvironmentObject var model:viewModel
     //@ObservedObject var model = viewModel()
+
     
     var body: some View {
         
@@ -37,12 +38,13 @@ struct ListView: View {
                 })
    
             }.navigationTitle("All Recipe")
+                
         //}
             
         
         }
      
-}
+    }
 }
 
 struct ListView_Previews: PreviewProvider {

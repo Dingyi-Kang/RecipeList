@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A442171D262FDBD2003055B6 /* greatestCommonDivisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A442171C262FDBD2003055B6 /* greatestCommonDivisor.swift */; };
 		A469D449262E8DB70084E68B /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = A469D448262E8DB70084E68B /* recipes.json */; };
 		A469D44C262E8FD10084E68B /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469D44B262E8FD10084E68B /* detailView.swift */; };
 		A469D44F262E9D2E0084E68B /* featureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A469D44E262E9D2E0084E68B /* featureView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A442171C262FDBD2003055B6 /* greatestCommonDivisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greatestCommonDivisor.swift; sourceTree = "<group>"; };
 		A469D448262E8DB70084E68B /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../../Downloads/Recipe List App 2/Recipe List App/Data/recipes.json"; sourceTree = "<group>"; };
 		A469D44B262E8FD10084E68B /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
 		A469D44E262E9D2E0084E68B /* featureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A442171B262FDBA5003055B6 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				A442171C262FDBD2003055B6 /* greatestCommonDivisor.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
 		A49500A6262E79F40089FE14 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		A49500B1262E79F40089FE14 /* RecipeList */ = {
 			isa = PBXGroup;
 			children = (
+				A442171B262FDBA5003055B6 /* Algorithm */,
 				A49500CA262E7B270089FE14 /* Data */,
 				A49500C9262E7B220089FE14 /* Model */,
 				A49500C8262E7B180089FE14 /* ViewModel */,
@@ -200,6 +211,7 @@
 				A49500CF262E7B690089FE14 /* structOfData.swift in Sources */,
 				A469D44C262E8FD10084E68B /* detailView.swift in Sources */,
 				A469D44F262E9D2E0084E68B /* featureView.swift in Sources */,
+				A442171D262FDBD2003055B6 /* greatestCommonDivisor.swift in Sources */,
 				A49500D5262E856B0089FE14 /* ListView.swift in Sources */,
 				A49500B5262E79F40089FE14 /* SceneDelegate.swift in Sources */,
 				A49500D2262E7D5F0089FE14 /* viewModel.swift in Sources */,
